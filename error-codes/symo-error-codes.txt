@@ -1,0 +1,179 @@
+#
+# FRONIUS SYMO Error codes
+#
+# taken from manual 42,0410,2028     007-11032014
+#
+# should be suitable for models
+#   3.0-3-S
+#   3.7-3-S
+#   4.5-3-S
+#   3.0-3-M
+#   3.7-3-M
+#   4.5-3-M
+#   5.0-3-M
+#   6.0-3-M
+#   7.0-3-M
+#   8.2-3-M
+#  10.0-3-M
+#  12.5-3-M
+#  15.0-3-M
+#  17.5-3-M
+#  20.0-3-M
+
+
+102	AC voltage too high
+103	AC voltage too low
+105	AC frequency too high
+106	AC frequency too low
+107	No AC grid
+108	Stand-alone operation detected
+112	RCMU error
+
+301	AC Overcurrent
+302	DC Overcurrent
+303	DC module overtemperature
+304	AC module overtemperature
+305	No power being fed in, despite closed relay
+306	PV output too low
+307	DC input voltage too low
+308	Intermediate circuit voltage too high
+309	DC input voltage MPPT 1 too high
+313	DC input voltage MPPT 2 too high
+
+401	No communication possible with the power stage set
+406	DC module temperature sensor faulty
+407	AC module temperature sensor faulty
+408	DC component measured in the grid too high
+412	Fixed voltage mode, but value too low or too high
+415	Safety cut-out via option card or RECERBO has triggered
+416	No communication between power stage set and control system
+
+417	Hardware ID problem
+419	Unique ID conflict
+421	HID range error
+425	No communication possible with the power stage set
+426	possible hardware fault (426)
+427	possible hardware fault (427)
+428	possible hardware fault (428)
+431	Software problem
+436	Functional incompatibility (one or more PC boards in the inverter are not compatible with each other, e.g. after a PC board has been replaced)
+437	Power stage set problem
+438	Functional incompatibility (one or more PC boards in the inverter are not compatible with each other, e.g. after a PC board has been replaced)
+443	Intermediate circuit voltage too low or asymmetric
+445	Compatibility error (PC board) or invalid power stage set configuration
+447	Insulation fault
+450	Guard cannot be found
+451	Memory error detected
+452	Communication error between the processors
+453	Grid voltage and power stage set are incompatible
+454	Grid frequency and power stage set are incompatible
+456	Anti-islanding function is no longer implemented correctly
+457	Grid relay sticking
+458	Error when recording measuring signal
+459	Error when recording the measuring signal for the insulation test
+460	Reference voltage source for the digital signal processor (DSP) is working out of tolerance
+461	Fault in the DSP data memory
+462	Error with DC feed monitoring routine
+463	Reversed AC polarity, AC connector inserted incorrectly
+472	Fuse for solar module ground is faulty; no solar module ground detected
+474	RCMU sensor faulty
+475	Insulation fault (connection between solar module and ground)
+476	Driver supply voltage too low
+480	Functional incompatibility (one or more PC boards in the inverter are not compatible with each other, e.g. after a PC board has been replaced)
+481	Functional incompatibility (one or more PC boards in the inverter are not compatible with each other, e.g. after a PC board has been replaced)
+482	Setup after initial startup was interrupted
+483	Voltage Udc_fixed on MPP2 string out of limits
+485	CAN transmit buffer is full
+
+502	Insulation error on the solar modules Warning message is shown on the display
+509	No energy fed into the grid in the past 24 hours
+515	No communication with filter possible
+516	No communication possible with the storage unit
+517	Power derating caused by too high a temperature
+518	Internal DSP malfunction
+519	No communication possible with the storage unit Storage unit
+520	No energy fed into the grid by MPPT1 in the past 24 hours
+522	DC low String 1
+523	DC low String 2
+551	Fuse for solar module ground is faulty
+558	Functional incompatibility (one or more PC boards in the inverter are not compatible with each other, e.g. after a PC board has been replaced)
+559	Functional incompatibility (one or more PC boards in the inverter are not compatible with each other, e.g. after a PC board has been replaced)
+560	Power derating caused by overfrequency
+564	Functional incompatibility (one or more PC boards in the inverter are not compatible with each other, e.g. after a PC board has been replaced)
+
+601	CAN bus is full
+
+701	internal processor state warning
+702	internal processor state warning
+703	internal processor state warning
+704	internal processor state warning
+705	internal processor state warning
+706	internal processor state warning
+707	internal processor state warning
+708	internal processor state warning
+709	internal processor state warning
+710	internal processor state warning
+711	internal processor state warning
+712	internal processor state warning
+713	internal processor state warning
+714	internal processor state warning
+715	internal processor state warning
+716	internal processor state warning
+721	EEPROM has been re-initialized
+722	internal processor state warning
+723	internal processor state warning
+724	internal processor state warning
+725	internal processor state warning
+726	internal processor state warning
+727	internal processor state warning
+728	internal processor state warning
+729	internal processor state warning
+730	internal processor state warning
+731	Initialisation error - USB stick is not supported
+732	Initialisation error - Overcurrent on USB stick
+733	No USB stick connected
+734	Update file not recognized or not present
+735	Update file does not match the device or is too old
+736	USB write or read error
+737	USB file could not be openend
+738	Log file cannot be saved
+740	Initialisiation error - error in USB stick file system
+741	USB Error during recoding of logging data
+743	USB Error occured during update process
+745	USB Update file corrupt
+746	Error during update process
+751	Time lost
+752	Real Time Clock module communication error
+753	Internal Error - RTC is in emergency mode
+754	internal processor state warning
+755	internal processor state warning
+757	Real Time Clock hardware error
+758	Internal Error - RTC is in emergency mode
+760	Internal hardware error
+761	internal processor state warning
+762	internal processor state warning
+763	internal processor state warning
+764	internal processor state warning
+765	internal processor state warning
+766	Emergency power derating (max. 750W)
+767	internal processor state warning
+768	Different power derating in the hardware modules
+772	Storage unit not available
+773	Software update group 0 (invalid country setup)
+775	PMC power stage set not available
+776	invalid device type
+781	internal processor state warning
+782	internal processor state warning
+783	internal processor state warning
+784	internal processor state warning
+785	internal processor state warning
+786	internal processor state warning
+787	internal processor state warning
+788	internal processor state warning
+789	internal processor state warning
+790	internal processor state warning
+791	internal processor state warning
+792	internal processor state warning
+793	internal processor state warning
+794	internal processor state warning
+
